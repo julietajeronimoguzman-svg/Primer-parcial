@@ -1,0 +1,35 @@
+.tabla-container {
+  margin-top: 25px;
+  width: 90%;
+  max-width: 650px;
+}
+
+.tabla-kpi {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #2e0854;
+  border: 1px solid #ff79c6;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(255, 121, 198, 0.2);
+}
+
+.tabla-kpi th {
+  background: linear-gradient(90deg, #ff79c6 0%, #bd93f9 100%);
+  color: #1a0033;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.tabla-kpi td {
+  padding: 12px;
+  border-bottom: 1px solid #4a126b;
+  color: #f8f8f2;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.tabla-kpi tr:last-child td {
+  border-bottom: none;
+}

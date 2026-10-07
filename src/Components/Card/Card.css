@@ -1,0 +1,35 @@
+.card-kpi {
+  background: linear-gradient(135deg, #2e0854 0%, #511281 100%);
+  border: 2px solid #ff79c6;
+  border-radius: 16px;
+  padding: 22px;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 0 8px 20px rgba(255, 121, 198, 0.25);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-kpi:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(255, 121, 198, 0.45);
+}
+
+.card-kpi h3 {
+  margin-top: 0;
+  color: #ff92d0;
+  font-size: 1.1rem;
+}
+
+.card-valor {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 12px 0;
+  text-shadow: 0 2px 8px rgba(255, 121, 198, 0.5);
+}
+
+.card-descripcion {
+  font-size: 0.85rem;
+  color: #e2b0ff;
+}
